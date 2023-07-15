@@ -1,5 +1,5 @@
 const express = require("express");
-const UserRoute = require("./Routes/UserRouter");
+const UserRoute = require("./Routes/userRouter");
 const AppRoute = require("./Routes/appRouter");
 const mangoose = require("mongoose");
 var cors = require("cors");
