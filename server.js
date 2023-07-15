@@ -12,7 +12,6 @@ app.use(cors());
 app.use("/api/user", UserRoute);
 app.use("/api/app", AppRoute);
 
-
 mangoose
   .connect(process.env.MONGO_URI)
   .then(() => {
